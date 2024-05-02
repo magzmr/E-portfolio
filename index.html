@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Magui Azmirly</h1>
+            <p>Passionnée par l'exploration des données et la programmation</p>
+        </header>
+
+        <section id="presentation" class="section">
+            <h2>Présentation</h2>
+            <p>Je suis étudiante en deuxième année de BUT Science des Données avec spécialisation en VCOD. Mon objectif est de mettre en lumière mes compétences techniques et mon expérience en alternance dans ce domaine.</p>
+        </section>
+
+        <section id="parcours" class="section">
+            <h2>Parcours de Formation</h2>
+            <ul>
+                <li>BUT SD (Science des données) avec spécialisation VCOD (2022-2025)</li>
+                <li>Baccalauréat ES Spécialité Mathématiques</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Portfolio de Projets</h2>
+            <div class="project">
+                <h3>Étude statistique de l’état de bonheur dans le monde</h3>
+                <p><strong>Institution:</strong> IUT de Paris-Rives de Seine, 1ère année</p>
+                <p><strong>Description:</strong> Réalisation d'analyses statistiques approfondies sur les données du Gallup World Poll pour comprendre les facteurs influençant le bonheur mondial.</p>
+                <p><strong>Livrables:</strong> Rédaction d'un rapport technique détaillé et présentation Powerpoint des résultats.</p>
+            </div>
+            <div class="project">
+                <h3>SAE Collecte automatisée de données web</h3>
+                <p><strong>Institution:</strong> IUT de Paris-Rives de Seine, 2ème année</p>
+                <p><strong>Description:</strong> Développement d'un processus automatisé pour enrichir le fichier "StockEtablissement" avec des coordonnées géographiques et des informations supplémentaires obtenues via web-scraping.</p>
+                <p><strong>Défis:</strong> Gestion des limitations de l'API Adresse et du web-scraping avec Google Maps.</p>
+            </div>
+            <div class="project">
+                <h3>Étude statistique de l'essentiel du RSA</h3>
+                <p><strong>Entreprise:</strong> CAF des Yvelines</p>
+                <p><strong>Description:</strong> Collaboration avec la CNAF pour concevoir un tableau de bord interactif visualisant les principaux aspects du RSA.</p>
+                <p><strong>Responsabilités:</strong> Écriture de requêtes Python et utilisation de Power BI pour la visualisation.</p>
+            </div>
+        </section>
+
+        <section id="langues" class="section">
+            <h2>Langues</h2>
+            <p>Français, Anglais, Suédois, Arabe</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Formulaire de Contact</h2>
+            <p>Contactez-moi via <a href="https://se.linkedin.com/in/magui-azmirly" target="_blank">LinkedIn</a></p>
+            <form action="mailto:your_email@example.com" method="POST" enctype="multipart/form-data">
+                <label for="name">Nom:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
